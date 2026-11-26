@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mizu Series | MADAYS</title>
+<meta name="description" content="The Mizu Series: games about Mizu and his family, made by MADAYS. Mini golf, jigsaw puzzles, a globe quiz and more, now on the App Store.">
+<style>
+  :root{
+    --bg:#d7eef8;
+    --card:#ffffff;
+    --ink:#23404f;
+    --sub:#4d7183;
+    --accent:#2e86b8;
+    --accent-ink:#ffffff;
+    --shadow:0 4px 14px rgba(35,64,79,.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#10344d;
+      --card:#1b435f;
+      --ink:#eaf6fc;
+      --sub:#b9d6e4;
+      --accent:#57a8d8;
+      --accent-ink:#0d2c40;
+      --shadow:0 4px 14px rgba(0,0,0,.35);
+    }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"Hiragino Maru Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif;
+    line-height:1.6;
+    -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:880px;margin:0 auto;padding:32px 16px 48px}
+  header{text-align:center;margin-bottom:28px}
+  .brand{font-size:.85rem;letter-spacing:.35em;color:var(--sub);font-weight:700}
+  h1{font-size:2rem;margin:6px 0 10px}
+  .lead{color:var(--sub);font-size:.98rem}
+  .grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:16px;
+  }
+  @media (min-width:640px){
+    .grid{grid-template-columns:1fr 1fr}
+  }
+  .card{
+    background:var(--card);
+    border-radius:20px;
+    box-shadow:var(--shadow);
+    padding:18px;
+    display:flex;
+    gap:16px;
+    align-items:flex-start;
+  }
+  .card img{
+    width:84px;height:84px;
+    border-radius:19%;
+    flex:none;
+    box-shadow:0 2px 6px rgba(35,64,79,.18);
+  }
+  .card-body{flex:1;min-width:0}
+  .card h2{font-size:1.12rem;line-height:1.35;margin-bottom:4px}
+  .card p{color:var(--sub);font-size:.92rem;margin-bottom:12px}
+  .store-btn{
+    display:inline-block;
+    background:var(--accent);
+    color:var(--accent-ink);
+    text-decoration:none;
+    font-weight:700;
+    font-size:.9rem;
+    padding:8px 16px;
+    border-radius:999px;
+  }
+  .store-btn:active{opacity:.8}
+  footer{
+    text-align:center;
+    margin-top:36px;
+    color:var(--sub);
+    font-size:.95rem;
+  }
+  footer .more{margin-bottom:14px}
+  footer a{color:var(--accent);font-weight:700}
+  .copyright{margin-top:22px;font-size:.8rem;letter-spacing:.2em}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">MADAYS</div>
+    <h1>Mizu Series</h1>
+    <p class="lead">Small games about Mizu and his family, made by our family and an AI team.<br>Here are the titles now on the App Store.</p>
+    <p class="lead" style="margin-top:8px"><a href="mizu-series.html" style="color:var(--accent);font-weight:700">日本語版はこちら</a></p>
+  </header>
+
+  <main class="grid">
+    <article class="card">
+      <img src="icons/6835406940.png" alt="App icon for Mizu Pocket Greens">
+      <div class="card-body">
+        <h2>Mizu Pocket Greens</h2>
+        <p>Just pull back and release. A tiny putter golf game with 80 courses.</p>
+        <a class="store-btn" href="https://apps.apple.com/app/mizu-pocket-greens/id6835406940" target="_blank" rel="noopener">View on the App Store</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="icons/6834699191.png" alt="App icon for Mizu Picture Puzzle">
+      <div class="card-body">
+        <h2>Mizu Picture Puzzle</h2>
+        <p>A jigsaw puzzle with 100 pictures from Mizu's world.</p>
+        <a class="store-btn" href="https://apps.apple.com/app/id6834699191" target="_blank" rel="noopener">View on the App Store</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="icons/6833907088.png" alt="App icon for Mizu Light Grid">
+      <div class="card-body">
+        <h2>Mizu Light Grid</h2>
+        <p>Tap the squares to switch the lights. A puzzle with 100 stages.</p>
+        <a class="store-btn" href="https://apps.apple.com/app/id6833907088" target="_blank" rel="noopener">View on the App Store</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="icons/6836664341.png" alt="App icon for Mizu Family Memory Match">
+      <div class="card-body">
+        <h2>Mizu Family Memory Match</h2>
+        <p>A card-matching game with 40 kinds of pictures and 6 difficulty levels.</p>
+        <a class="store-btn" href="https://apps.apple.com/app/id6836664341" target="_blank" rel="noopener">View on the App Store</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="icons/6837985606.png" alt="App icon for Mizu Farm: Pig Escape!">
+      <div class="card-body">
+        <h2>Mizu Farm: Pig Escape!</h2>
+        <p>Tap a pig to send it running. An escape puzzle with 150 stages.</p>
+        <a class="store-btn" href="https://apps.apple.com/app/id6837985606" target="_blank" rel="noopener">View on the App Store</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="icons/6837947073.png" alt="App icon for Mizu Globe">
+      <div class="card-body">
+        <h2>Mizu Globe</h2>
+        <p>Spin the globe and guess the countries and cities. A geography quiz with 85 stages.</p>
+        <a class="store-btn" href="https://apps.apple.com/app/id6837947073" target="_blank" rel="noopener">View on the App Store</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="icons/6838686262.png" alt="App icon for Mizu Color Sort">
+      <div class="card-body">
+        <h2>Mizu Color Sort</h2>
+        <p>Pour the colored water to sort it all out. A sorting puzzle with 100 stages.</p>
+        <a class="store-btn" href="https://apps.apple.com/app/id6838686262" target="_blank" rel="noopener">View on the App Store</a>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p class="more">More games are on the way, little by little.</p>
+    <p>Some of our games can also be played right in your browser.<br><a href="https://madays-jp.github.io/mizu-starpath/" target="_blank" rel="noopener">Mizu Family Game Center</a></p>
+    <p class="copyright">MADAYS</p>
+  </footer>
+</div>
+</body>
+</html>
